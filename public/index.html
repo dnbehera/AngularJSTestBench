@@ -1,0 +1,29 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> Angular Test Bench </title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" >
+        <script type='text/javascript' src="bower_components/angular/angular.js"></script>
+        <script type='text/javascript' src="js/home.js"></script>
+    </head>
+    <body ng-app="invoice" ng-controller="calculateInvoice" >
+        <div class="container">
+            <div class="row" >
+                <input ng-model="cost"/>
+                </div>
+            <div class="row" >
+                <input ng-model="quantity"/>
+            </div>
+            <div class="row" >
+                <select ng-model="currency" ng-change="calculate()">
+                    <option>USD</option>
+                    <option>INR</option>
+                    <option>EURO</option>
+                </select>
+            </div>
+            <div class="row">
+                <lable> Total Amount in ${{usdAmt}} or EUR{{euroAmt}} or INR{{inrAmt}}</lable>
+            </div>
+        </div>
+    </body>
+</html>

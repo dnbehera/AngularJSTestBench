@@ -1,0 +1,16 @@
+{
+  "name": "angular-test-bench",
+  "version": "1.0.0",
+  "description": "I will be testing my AngularJS knowledge here",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dibya Behera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mustache-express": "^1.2.5",
+    "nodemon": "^1.14.11"
+  }
+}

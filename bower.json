@@ -1,0 +1,21 @@
+{
+  "name": "angular-test-bench",
+  "description": "I will be testing my AngularJS knowledge here",
+  "main": "server.js",
+  "authors": [
+    "Dibya Behera"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
